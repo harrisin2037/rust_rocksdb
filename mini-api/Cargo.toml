@@ -1,0 +1,32 @@
+[package]
+name = "mini-api"
+version = "0.1.0"
+authors = ["Harris Sin <harrisin2037@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+config = "0.10.1"
+env_logger = "0.8.1"
+failure = "0.1.8"
+rocksdb = "0.15.0"
+serde = "1.0.117"
+serde_derive = "1.0.117"
+log = "0.4"
+actix-web = "3"
+envconfig = "0.9.1"
+envconfig_derive = "0.9.1"
+diesel = "1.4.5"
+json = "0.12.4"
+bytes = "0.6.0"
+trace = "*"
+reqwest = { version = "0.10.8", features = ["blocking", "json"] }
+tokio = { version = "0.3.1", features = ["macros"] }
+lazy_static = "1.4.0"
+anyhow = "1.0.33"
+background-jobs = "0.8.0-alpha.1"
+actix = "0.10.0-alpha.0"
+futures = "0.3.7"
+thiserror = "1.0.21"
+actix-rt = "1.1.1"
